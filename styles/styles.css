@@ -58,6 +58,10 @@ body {
   /* padding: 0 20px; */
 }
 
+.contractaddy {
+  word-break: break-all;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
