@@ -58,10 +58,6 @@ body {
   /* padding: 0 20px; */
 }
 
-.contractaddy {
-  word-break: break-all;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -362,7 +358,8 @@ nav a:focus {
 #socials h2,
 .imagecont h2,
 .welcome-screen h1,
-#roadmap h2 {
+#roadmap h2,
+#utility h2 {
   font-size: 4rem;
   color: var(--creamy-white-base);
   text-shadow: 2px 2px 0 var(--gummy-green-darker);
@@ -432,11 +429,19 @@ nav a:focus {
   margin-right: 14px;
 } */
 
-#how-to-buy {
+#how-to-buy,
+#utility {
   max-width: 80%;
   color: black;
   text-shadow: 2px 2px 0 var(--gummy-green-darker);
   margin: 0 auto;
+}
+
+#utility p,
+#utility ol,
+#utility li {
+  line-height: 120%;
+  font-size: 110%;
 }
 
 ol {
