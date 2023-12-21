@@ -587,3 +587,10 @@ a.komun1kat3-link.glow {
     margin: 10px auto;
   }
 }
+
+img.utility-img {
+  margin: 10px;
+  margin-bottom: 25px;
+  max-width: 350px;
+  border: 2px solid white;
+}
