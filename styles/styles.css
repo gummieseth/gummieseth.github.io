@@ -51,6 +51,10 @@ body {
   overflow-x: hidden;
 }
 
+.contractaddy {
+  word-break: break-all;
+}
+
 .wrapper {
   max-width: 100%;
   margin: 0 auto;
